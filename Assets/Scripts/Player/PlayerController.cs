@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float gravityFloat = 5f;
     [SerializeField] private float _coyoteTime = .05f;
     [SerializeField] private float _earlyJumpTime = .05f;
+    [SerializeField] private float _jumpsLeft = 2f;
     
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private float groundCheckDistance = 0.0625f;
@@ -160,6 +161,7 @@ public class PlayerController : MonoBehaviour
         {
             _coyoteTimeLeft = 0f;
             _hasLeftGround = false;
+            _jumpsLeft = 2;
         }
         
         //Jump
@@ -168,12 +170,13 @@ public class PlayerController : MonoBehaviour
             _isJumpDown = false; //we have now used up this button press
             
             //either being on the ground or still in coyote time we can jump
-            if (IsOnGround() || _coyoteTimeLeft > 0f)
+            if (IsOnGround() || _coyoteTimeLeft > 0f || _jumpsLeft > 0)
             {
                 _rb.velocity = new Vector2(_rb.velocity.x, jumpForce);
                 _coyoteTimeLeft = 0f; //jumping cancels coyote time (or you will get air jumps)
                 _earlyJumpTimeLeft = 0f; //can't reuse the early jump press.
                 _hasLeftGround = true;
+                _jumpsLeft--;
                 AudioSystem.Instance.PlaySound(_soundJump, transform.position);
             }
         }
