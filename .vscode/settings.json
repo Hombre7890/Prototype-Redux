@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "UnityPrototypeGame.sln"
+    "dotnet.defaultSolution": "Prototype-Redux.sln"
 }
