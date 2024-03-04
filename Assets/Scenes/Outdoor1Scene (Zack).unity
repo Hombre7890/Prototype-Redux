@@ -24208,6 +24208,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 9112761562098317940, guid: 7db9288d149dc4ec394ad39eeedc3f71, type: 3}
+      propertyPath: hp
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112761562098317940, guid: 7db9288d149dc4ec394ad39eeedc3f71, type: 3}
+      propertyPath: maxHp
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24549,6 +24557,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8953320567161661722, guid: 23a59c70b843045b6b35a9981ebf7044, type: 3}
+      propertyPath: startingPlayerDataSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 277a430a72d525c40a7dc1712b996ab6, type: 2}
     - target: {fileID: 8953320567161661723, guid: 23a59c70b843045b6b35a9981ebf7044, type: 3}
       propertyPath: m_RootOrder
       value: 9
