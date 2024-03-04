@@ -24197,8 +24197,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5043045730022369805, guid: 7db9288d149dc4ec394ad39eeedc3f71, type: 3}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043045730022369805, guid: 7db9288d149dc4ec394ad39eeedc3f71, type: 3}
+      propertyPath: jumpForce
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043045730022369805, guid: 7db9288d149dc4ec394ad39eeedc3f71, type: 3}
       propertyPath: _coyoteTime
       value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043045730022369805, guid: 7db9288d149dc4ec394ad39eeedc3f71, type: 3}
+      propertyPath: gravityFloat
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5043045730022369805, guid: 7db9288d149dc4ec394ad39eeedc3f71, type: 3}
       propertyPath: _earlyJumpTime
@@ -24207,6 +24219,14 @@ PrefabInstance:
     - target: {fileID: 5043045730022369806, guid: 7db9288d149dc4ec394ad39eeedc3f71, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112761562098317940, guid: 7db9288d149dc4ec394ad39eeedc3f71, type: 3}
+      propertyPath: hp
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112761562098317940, guid: 7db9288d149dc4ec394ad39eeedc3f71, type: 3}
+      propertyPath: maxHp
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
