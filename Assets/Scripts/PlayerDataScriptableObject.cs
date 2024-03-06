@@ -11,7 +11,11 @@ public class PlayerDataScriptableObject : ScriptableObject
     public int playerHpMax;
     public int playerHp;
     public int playerSlimeCount;
-    public int entranceNumber = -1; //entrance number Player will arrive at
+    public int entranceNumber = -1;
+    
+    //public int jumpForce
+    
+    //entrance number Player will arrive at
     
     /*
 #if UNITY_EDITOR
