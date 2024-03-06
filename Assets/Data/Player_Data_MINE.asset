@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 722c5fb3313564bb6a51b548c499a8ef, type: 3}
   m_Name: Player_Data_MINE
   m_EditorClassIdentifier: 
-  playerHpMax: 100
-  playerHp: 75
-  playerSlimeCount: 1
+  playerHpMax: 50
+  playerHp: 50
+  playerSlimeCount: 0
   entranceNumber: -1
