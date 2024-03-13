@@ -182,7 +182,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Change between white and <color=green>green</color> using right click\nWhite
     color leaves corpses to heal with\n<color=green>Green</color> color leaves green
-    slime\n                     Spitting drains your health\n    "
+    slime\nYou can double jump, and \n           spitting drains your health\n    "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 010f1a24e662c472799c0e9b612c7101, type: 2}
   m_sharedMaterial: {fileID: -6884080701263463007, guid: 010f1a24e662c472799c0e9b612c7101, type: 2}
